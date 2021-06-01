@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+}
+
+main {
+    min-height: 70vh;
+}
+
+a,
+a:visited,
+a:hover {
+    color: greenyellow;
+}
+
+
+footer {
+    color: inherit;
+    margin-top: 3rem;
+}
+
+
+@media (min-width: 40em) {
+    footer {
+        margin-top: 1rem;
+    }
+}

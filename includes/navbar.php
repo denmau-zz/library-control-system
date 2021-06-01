@@ -1,8 +1,8 @@
 <!--Should be wrapped in a <body> tag -->
 <?php const BASE_PATH = 'http://localhost/denmau'; ?>
 
-<div class="container-fluid">
-    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+<div class="container">
+    <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
         <a class="navbar-brand" href="<?php echo BASE_PATH ?>/home.php">Library Control System</a>
 
         <ul class="nav nav-pills">

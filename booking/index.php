@@ -54,14 +54,13 @@
             </div>
 
             <div class="col-sm-12 col-md-6">
-                <!--                <div class="form-signin">-->
                 <h2 class="text-center text-white">Got a question?</h2>
                 <form action="" method="post">
 
                     <div class="form-floating">
                         <input type="text" class="form-control" id="floatingInput"
                                name="regNo" required>
-                        <label for="floatingInput">Student / Employee Reg No.</label>
+                        <label for="floatingInput">Reg No.</label>
                     </div>
 
                     <div>
@@ -69,7 +68,7 @@
                                   required placeholder="Query"></textarea>
                     </div>
 
-                    <button class="w-100 btn btn-lg btn-primary mt-2" type="submit">Book Session</button>
+                    <button class="w-100 btn btn-lg btn-secondary mt-2" type="submit">Send Query</button>
                 </form>
             </div>
         </div>

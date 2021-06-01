@@ -1,5 +1,7 @@
 <!--Should be wrapped in a <body> tag -->
-<?php const BASE_PATH = 'http://localhost/denmau'; ?>
+<?php
+const BASE_PATH = 'http://localhost/denmau';
+?>
 
 <div class="container">
     <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
@@ -7,10 +9,10 @@
 
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo BASE_PATH ?>">Home</a>
+                <a class="nav-link active" href="<?php echo BASE_PATH ?>">Home</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link active" href="<?php echo BASE_PATH ?>/home.php">New Home</a>
+                <a class="nav-link" href="<?php echo BASE_PATH ?>/home.php">New Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo BASE_PATH ?>/booking">Booking & Enquiries</a>

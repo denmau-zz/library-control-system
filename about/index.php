@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 
-    <title>About &middot Library Control System</title>
+    <title>Librarian &middot Library Control System</title>
 
     <!--Fetch Header file-->
-    <?php require '../includes/header.php'; ?>
+    <?php require '../includes/header.php';
+    $active_class = "librarian"; ?>
 
 </head>
 <body style="background-color: darkgreen; color: white;">

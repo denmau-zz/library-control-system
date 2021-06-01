@@ -6,6 +6,7 @@
 
     <!--Fetch Header file-->
     <?php
+    $active_class  = "home";
     const BASE_PATH = "http://localhost/denmau";
     require(BASE_PATH . '/includes/header.php');
     ?>

@@ -1,11 +1,11 @@
 <!doctype html>
 <html lang="en">
 <head>
-
     <title>About &middot Library Control System</title>
 
     <!--Fetch Header file-->
-    <?php require '../includes/header.php'; ?>
+    <?php require '../includes/header.php';
+    $active_class = "booking"; ?>
 
 </head>
 <body class="bg-dark">

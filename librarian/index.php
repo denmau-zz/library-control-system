@@ -10,7 +10,8 @@
 <body style="background-color: darkgreen; color: white">
 
 <!--FETCH NAVBAR -->
-<?php include BASE_PATH . '/includes/navbar.php'; ?>
+<?php include BASE_PATH . '/includes/navbar.php';
+$active_class = "librarian"; ?>
 
 
 <!--page content-->

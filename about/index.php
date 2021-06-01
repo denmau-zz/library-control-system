@@ -2,10 +2,10 @@
 <html lang="en">
 <head>
 
+    <title>About &middot Library Control System</title>
+
     <!--Fetch Header file-->
     <?php require '../includes/header.php'; ?>
-
-    <title>About &middot Library Control System</title>
 
 </head>
 <body style="background-color: darkgreen; color: white;">
@@ -37,10 +37,10 @@
 
         <p><strong class="text-center">How to reach us</strong></p>
         <ul>
-            <li>Phone:  <a href="+254748605996">254748605996/7</a></li>
-            <li>Mail:   <a href="mailto:info@seku.ac.ke">info@seku.ac.ke</a></li>
-            <li>Facebook:   <a href="https://facebook.com">South Eastern Kenya university</a></li>
-            <li>Twitter:    <a href="https://twitter.com/discoverseku">@discoverseku</a></li>
+            <li>Phone: <a href="+254748605996">254748605996/7</a></li>
+            <li>Mail: <a href="mailto:info@seku.ac.ke">info@seku.ac.ke</a></li>
+            <li>Facebook: <a href="https://facebook.com">South Eastern Kenya university</a></li>
+            <li>Twitter: <a href="https://twitter.com/discoverseku">@discoverseku</a></li>
         </ul>
 
     </main>

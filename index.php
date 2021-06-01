@@ -12,8 +12,8 @@
 </head>
 <body>
 
-<!--Fetch Navbar -->
-<?php require(BASE_PATH . '/includes/navbar.php'); ?>
+<!--FETCH NAVBAR -->
+<?php require BASE_PATH . '/includes/navbar.php'; ?>
 
 <main id="home">
 
@@ -196,8 +196,8 @@
 
 </main>
 
-<!-- footer & JavaScript Files -->
-<?php require './includes/footer.php' ?>
+<!-- FETCH FOOTER -->
+<?php require BASE_PATH . '/includes/footer.php' ?>
 
 </body>
 

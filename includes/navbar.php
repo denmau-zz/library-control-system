@@ -17,7 +17,10 @@
                         <a class="nav-link active" href="<?php echo BASE_PATH ?>">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="<?php echo BASE_PATH ?>">Booking & Enquiries</a>
+                        <a class="nav-link active" href="<?php echo BASE_PATH ?>/home.php">New Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?php echo BASE_PATH ?>/booking">Booking & Enquiries</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="<?php echo BASE_PATH ?>/about">About</a>
@@ -30,7 +33,6 @@
                     </li>
                 </ul>
             </div>
-
         </div>
     </nav>
 </div>

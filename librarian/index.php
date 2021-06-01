@@ -28,6 +28,7 @@
                            name="email">
                     <label for="floatingInput">Email address</label>
                 </div>
+
                 <div class="form-floating">
                     <input type="password" class="form-control" id="floatingPassword" placeholder="Password"
                            name="password">

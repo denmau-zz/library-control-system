@@ -16,7 +16,7 @@
 
 <!--page content-->
 <div class="container">
-    <main>
+    <main id="home">
         <div class="text-center">
             <img src="<?php echo BASE_PATH ?>/assets/image/seku_logo.png" alt="">
         </div>
@@ -37,10 +37,10 @@
 
         <p><strong class="text-center">How to reach us</strong></p>
         <ul>
-            <li>Phone: <a href="+254748605996">25474860599 6/7</a></li>
-            <li>Mail: <a href="mailto:info@seku.ac.ke">info@seku.ac.ke</a></li>
-            <li>Facebook: <a href="https://facebook.com">South Eastern Kenya university</a></li>
-            <li>Twitter: <a href="https://twitter.com/discoverseku">@discoverseku</a></li>
+            <li>Phone:  <a href="+254748605996">254748605996/7</a></li>
+            <li>Mail:   <a href="mailto:info@seku.ac.ke">info@seku.ac.ke</a></li>
+            <li>Facebook:   <a href="https://facebook.com">South Eastern Kenya university</a></li>
+            <li>Twitter:    <a href="https://twitter.com/discoverseku">@discoverseku</a></li>
         </ul>
 
     </main>

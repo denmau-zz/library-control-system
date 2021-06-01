@@ -1,9 +1,14 @@
 <div class="container">
-    <hr class="featurette-divider">
+    <hr />
 
     <footer class="pt-3">
-        <p class="float-end"><a href="#">Scroll to top</a></p>
-        <p>&copy; 2021 SEKU Library Control System</p>
+
+        <div class="row">
+            <div class="col-6"><p>&copy; 2021 SEKU Library Control System</p></div>
+            <div class="col-6"><p class="d-flex justify-content-end"><a href="#home">Scroll to top</a></p>
+            </div>
+        </div>
+
         <br/>
     </footer>
 </div>

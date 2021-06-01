@@ -15,7 +15,7 @@
 <!--Fetch Navbar -->
 <?php require(BASE_PATH . '/includes/navbar.php'); ?>
 
-<main>
+<main id="home">
 
     <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-indicators">

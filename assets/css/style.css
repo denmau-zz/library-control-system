@@ -2,14 +2,15 @@ html, body {
     height: 100%;
 }
 
-main {
-    min-height: 70vh;
+#home {
+    min-height: 80vh;
 }
 
 a,
 a:visited,
 a:hover {
-    color: greenyellow;
+    color: yellow;
+    text-decoration: none;
 }
 
 .form-signin {
@@ -38,7 +39,7 @@ a:hover {
 
 footer {
     color: inherit;
-    margin-top: 3rem;
+    margin-top: 2rem;
 }
 
 

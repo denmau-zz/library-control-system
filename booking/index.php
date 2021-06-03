@@ -8,7 +8,7 @@
     $active_class = "booking"; ?>
 
 </head>
-<body class="bg-dark">
+<body style="background-color: darkgreen; color: black;">
 
 <!--FETCH NAVBAR -->
 <?php require BASE_PATH . '/includes/navbar.php'; ?>
@@ -23,7 +23,7 @@
 
         <div class="row">
             <div class="col-sm-12 col-md-6">
-                <h2 class="text-center text-white">Book a session</h2>
+                <h2 class="text-center text-black">Book a session</h2>
                 <div class="form-signin">
                     <form action="" method="post">
 
@@ -54,7 +54,7 @@
             </div>
 
             <div class="col-sm-12 col-md-6">
-                <h2 class="text-center text-white">Got a question?</h2>
+                <h2 class="text-center text-black">Got a question?</h2>
                 <form action="" method="post">
 
                     <div class="form-floating">

@@ -9,7 +9,7 @@ const BASE_PATH = 'http://localhost/denmau';
 
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo BASE_PATH ?>/home.php">New Home</a>
+                <a class="nav-link" href="<?php echo BASE_PATH ?>/home.php">Home</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo BASE_PATH ?>/booking">Booking & Enquiries</a>

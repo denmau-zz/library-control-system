@@ -51,7 +51,7 @@
         </div>
     </main>
 </div>
-
+<a class="nav-link" href="<?php echo BASE_PATH ?>/librarian/index.php"> <h4 class="mt-2 text-center">are you a librarian ?</h4></a>
 
 <!-- FETCH FOOTER -->
 <?php require BASE_PATH . '/includes/footer.php' ?>

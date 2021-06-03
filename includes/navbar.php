@@ -9,9 +9,6 @@ const BASE_PATH = 'http://localhost/denmau';
 
         <ul class="nav nav-pills">
             <li class="nav-item">
-                <a class="nav-link active" href="<?php echo BASE_PATH ?>">Home</a>
-            </li>
-            <li class="nav-item">
                 <a class="nav-link" href="<?php echo BASE_PATH ?>/home.php">New Home</a>
             </li>
             <li class="nav-item">
@@ -20,11 +17,9 @@ const BASE_PATH = 'http://localhost/denmau';
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo BASE_PATH ?>/about">About</a>
             </li>
+            
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo BASE_PATH ?>/librarian">Librarian</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo BASE_PATH ?>">News & Events</a>
+                <a class="nav-link" href="<?php echo BASE_PATH ?>/newsandevents/index.php">News & Events</a>
             </li>
         </ul>
     </header>

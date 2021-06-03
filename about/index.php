@@ -46,7 +46,7 @@
 
     </main>
 </div>
-
+<a class="nav-link" href="<?php echo BASE_PATH ?>/home.php"> <h4 class="mt-2 text-center">CLICK HERE TO GO BACK TO HOME PAGE</h4></a>
 <!-- FETCH FOOTER -->
 <?php require BASE_PATH . '/includes/footer.php' ?>
 

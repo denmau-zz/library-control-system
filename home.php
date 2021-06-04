@@ -8,7 +8,7 @@
     <?php require './includes/header.php'; ?>
 
 </head>
-<body class="bg-dark">
+<body style="background-color: darkgreen; color: black;">
 
 <!--FETCH NAVBAR -->
 <?php include BASE_PATH . '/includes/navbar.php'; ?>
@@ -25,7 +25,7 @@
                     <p class="col-md-8 fs-4">Using a series of utilities, you can create this jumbotron, just like the
                         one in previous versions of Bootstrap. Check out the examples below for how you can remix and
                         restyle it to your liking.</p>
-                    <button class="btn btn-primary btn-lg" type="button">Example button</button>
+                    <button class="btn btn-primary btn-lg" type="button">CHECK STATUS</button>
                 </div>
             </div>
 
@@ -51,7 +51,7 @@
         </div>
     </main>
 </div>
-
+<a class="nav-link" href="<?php echo BASE_PATH ?>/librarian/index.php"> <h4 class="mt-2 text-center">are you a librarian ?</h4></a>
 
 <!-- FETCH FOOTER -->
 <?php require BASE_PATH . '/includes/footer.php' ?>

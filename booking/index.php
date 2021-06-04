@@ -8,7 +8,7 @@
     $active_class = "booking"; ?>
 
 </head>
-<body class="bg-dark">
+<body style="background-color: darkgreen; color: black;">
 
 <!--FETCH NAVBAR -->
 <?php require BASE_PATH . '/includes/navbar.php'; ?>

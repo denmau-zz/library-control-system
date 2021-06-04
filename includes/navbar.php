@@ -17,7 +17,7 @@ const BASE_PATH = 'http://localhost/denmau';
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo BASE_PATH ?>/about">About</a>
             </li>
-            
+
             <li class="nav-item">
                 <a class="nav-link" href="<?php echo BASE_PATH ?>/newsandevents/index.php">News & Events</a>
             </li>
@@ -63,6 +63,3 @@ const BASE_PATH = 'http://localhost/denmau';
 <!--        </div>-->
 <!--    </nav>-->
 <!--</div>-->
-
-
-

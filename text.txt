@@ -1,0 +1,8 @@
+sigunup{ user/name, email, pwd, role(regno. student)}
+login page
+   category-librarian{username}, student{regno}
+
+check status button->student page
+
+databases
+{checkin table, student->return status; table{signup};}

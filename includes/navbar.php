@@ -15,11 +15,16 @@ const BASE_PATH = 'http://localhost/denmau';
                 <a class="nav-link" href="<?php echo BASE_PATH ?>/booking">Booking & Enquiries</a>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="<?php echo BASE_PATH ?>/newsandevents/index.php">News & Events</a>
+            </li>
+            <li class="nav-item">
                 <a class="nav-link" href="<?php echo BASE_PATH ?>/about">About</a>
             </li>
-            
             <li class="nav-item">
-                <a class="nav-link" href="<?php echo BASE_PATH ?>/newsandevents/index.php">News & Events</a>
+                <a class="nav-link" href="<?php echo BASE_PATH ?>/helpline">Helpline</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="<?php echo BASE_PATH ?>/logout.php">logout</a>
             </li>
         </ul>
     </header>

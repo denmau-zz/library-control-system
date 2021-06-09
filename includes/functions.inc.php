@@ -113,7 +113,7 @@ function loginUser($conn, $name, $pwd){
     $uidExists = userExist($conn, $name, $name);
 
     if($uidExists === false){
-        header ("location: ../login.php?error=notRegestered");
+        header ("location: ../index.php?error=notRegestered");
         exit();
     }
 
@@ -121,7 +121,7 @@ function loginUser($conn, $name, $pwd){
     $checkPassword = password_verify($pwd, $pwdHashed);
 
     if($checkPassword === false){
-        header ("location: ../login.php?error=wrongPwd");
+        header ("location: ../index.php?error=wrongPwd");
         exit();
     }else if($checkPassword === true){
         session_start();

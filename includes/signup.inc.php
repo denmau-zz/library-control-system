@@ -38,7 +38,7 @@ if(isset($_POST["register"])){
     $query = mysqli_query($conn, $sql);
 
     if($query){
-        header("location:../login.php");
+        header("location:../index.php");
     }else{
         header("location:../index.php?error=Configure imternet and try again");
     }

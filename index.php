@@ -33,7 +33,7 @@ include_once "includes/signup.inc.php";
                     <input type="text" name="reg-no" id="" placeholder="Enter student regitration number">
                     <input type="email" name="email" id="" placeholder="Enter student email address">
                     <input type="password" name="pwd" id="" placeholder="Enter password">
-                    <input type="password" name="cpwd" id="" placeholder="Conferm your password">
+                    <input type="password" name="cpwd" id="" placeholder="Confirm your password">
                     <input type="text" name="role" id="" value="student" hidden>
                     <button type="submit" name="register">signup</button>
                 </form>

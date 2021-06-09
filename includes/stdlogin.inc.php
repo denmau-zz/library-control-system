@@ -30,10 +30,10 @@ if(isset($_POST["login"])){
         $hashedpassword = md5($studentPwd);
 
         if($hashedpassword !== $row["user_password"]){
-            header("location:../login.php?error=Incorrect user password from the database");
+            header("location:../index.php?error=Incorrect user password from the database");
         }
         if($studentRole !== $row["user_role"]){
-            header("location:../login.php?error=Wrong user role,try again");
+            header("location:../index.php?error=Wrong user role,try again");
         }
         if($hashedpassword === $row["user_password"] && $studentReg === $row["user_name"]){
            session start();

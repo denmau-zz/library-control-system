@@ -8,7 +8,7 @@ if(isset($_POST["login-user"])){
     include_once "functions.inc.php";
 
     if(fieldEmpty($name, $pwd) !== false){
-        header ("location: ../login.php?error=emptyLogin");
+        header ("location: ../index.php?error=emptyLogin");
         exit();
     }
    loginUser($conn, $name, $pwd);

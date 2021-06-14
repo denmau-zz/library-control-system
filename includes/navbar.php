@@ -68,6 +68,3 @@ const BASE_PATH = 'http://localhost/denmau';
 <!--        </div>-->
 <!--    </nav>-->
 <!--</div>-->
-
-
-

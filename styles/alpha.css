@@ -1,0 +1,85 @@
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-image: url(../images/seku.png);
+}
+
+   
+ .status{
+    margin: 20%;
+    width: 60%;
+    
+    border: 5px solid #FFFF00;
+    padding: 10px;
+   
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;         
+    border: solid 1px #f00b2d;
+    border-radius: 20px;
+    background-color: #3498db;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    line-height: 45px;
+    padding-top: 20px;
+    letter-spacing: -0.8px;
+ 
+     
+    
+ }
+.welcome
+{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    font-family: 'Oswald', sans-serif;
+    color: #fff;
+    background-color: rgb(7, 79, 24);
+    border: solid 1px rgb(7, 79, 24);
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: -0.8px;
+    line-height: 15px;
+    padding-top: 20px;
+    text-align: center;
+}
+.button {
+  font-family: 'Oswald', sans-serif;
+  margin-left: 30%;
+  padding: 10px 10px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: solid 1px rgb(7, 79, 24);
+  border-radius: 15px;
+  text-decoration: none;
+  
+  
+ 
+}
+.button1 {
+  font-family: 'Oswald', sans-serif;
+  margin-left: 21%;
+  padding: 10px 10px;
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #04AA6D;
+  border: solid 1px rgb(7, 79, 24);
+  border-radius: 15px;
+  text-decoration: none;
+  
+ 
+}
+.btn{
+  padding-top: 5%;
+}
+
+       
+

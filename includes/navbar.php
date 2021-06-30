@@ -1,73 +1,55 @@
-<!--Should be wrapped in a <body> tag -->
-<?php
-const BASE_PATH = 'http://localhost/denmau';
-?>
+<header class="main-header">
+  <nav class="navbar navbar-static-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand"><b>SEKU Library</b> System</a>
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+          <i class="fa fa-bars"></i>
+        </button>
+      </div>
 
-<div class="container">
-    <header class="d-flex flex-wrap justify-content-between py-3 mb-4 border-bottom">
-        <a class="navbar-brand" href="<?php echo BASE_PATH ?>/home.php">Library Control System</a>
-
-        <ul class="nav nav-pills">
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo BASE_PATH ?>/home.php">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo BASE_PATH ?>/booking">Booking & Enquiries</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo BASE_PATH ?>/newsandevents/index.php">News & Events</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo BASE_PATH ?>/about">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo BASE_PATH ?>/helpline">Helpline</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="<?php echo BASE_PATH ?>/logout.php">logout</a>
-            </li>
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <?php
+            if(isset($_SESSION['student'])){
+              echo "
+                <li><a href='index.php'>HOME</a></li>
+                <li><a href='transaction.php'>TRANSACTION</a></li>
+              ";
+            } 
+          ?>
         </ul>
-    </header>
-</div>
-
-
-<!--<div class="container-fluid bg-dark">-->
-<!--    <nav class="navbar navbar-expand-lg navbar-dark">-->
-
-<!--        <div class="container">-->
-<!--            <a class="navbar-brand" href="--><?php //echo BASE_PATH ?><!--">Library Control System</a>-->
-<!---->
-<!--            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"-->
-<!--                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">-->
-<!--                <span class="navbar-toggler-icon"></span>-->
-<!--            </button>-->
-<!---->
-<!---->
-<!--            <div class="collapse navbar-collapse" id="navbarText">-->
-<!--                <ul class="navbar-nav me-auto mb-2 mb-lg-0">-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link active" href="--><?php //echo BASE_PATH ?><!--">Home</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link active" href="--><?php //echo BASE_PATH ?><!--/home.php">New Home</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link" href="--><?php //echo BASE_PATH ?><!--/booking">Booking & Enquiries</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link" href="--><?php //echo BASE_PATH ?><!--/about">About</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link" href="--><?php //echo BASE_PATH ?><!--/librarian">Librarian</a>-->
-<!--                    </li>-->
-<!--                    <li class="nav-item">-->
-<!--                        <a class="nav-link" href="--><?php //echo BASE_PATH ?><!--">News & Events</a>-->
-<!--                    </li>-->
-<!--                </ul>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </nav>-->
-<!--</div>-->
-
-
-
+      </div>
+      <!-- /.navbar-collapse -->
+      <!-- Navbar Right Menu -->
+      <div class="navbar-custom-menu">
+        <ul class="nav navbar-nav">
+          <?php
+            if(isset($_SESSION['student'])){
+              $photo = (!empty($student['photo'])) ? 'images/'.$student['photo'] : 'images/profile.jpg';
+              echo "
+                <li class='user user-menu'>
+                  <a href='#'>
+                    <img src='".$photo."' class='user-image' alt='User Image'>
+                    <span class='hidden-xs'>".$student['firstname'].' '.$student['lastname']."</span>
+                  </a>
+                </li>
+                <li><a href='logout.php'><i class='fa fa-sign-out'></i> LOGOUT</a></li>
+              ";
+            }
+            else{
+              echo "
+                <li><a href='#login' data-toggle='modal'><i class='fa fa-sign-in'></i> LOGIN</a></li>
+                <li><a href='indexalpha.php' ><i class='fa fa-dashboard'></i> DASHBOARD</a></li>
+              ";
+            } 
+          ?>
+        </ul>
+      </div>
+      <!-- /.navbar-custom-menu -->
+    </div>
+    <!-- /.container-fluid -->
+  </nav>
+</header>
+<?php include 'includes/login_modal.php'; ?>

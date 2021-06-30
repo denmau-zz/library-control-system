@@ -19,10 +19,8 @@ $dbname = $cleardb_url ? substr($cleardb_url["path"], 1) : "libsystem";
 
 try {
 	// Create connection
-	$conn = new PDO("mysql:host=$host;dbname=$dbname", $user, $pass);
+	$conn = new mysqli($host, $user, $pass, $dbname);
 
-	$conn->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
-	$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 } catch (PDOException $e) {
 	echo $error_message = "Connection failed: " . $e->getMessage();
 	exit();

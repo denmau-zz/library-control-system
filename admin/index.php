@@ -33,7 +33,7 @@
       		</div>
 			  
     	</form>
-		<button class="btn"><a href="../indexalpha.php"><p>dashboard</p></a></button>
+		<button class="btn"><a href="../index.php"><p>dashboard</p></a></button>
   	</div>
   	<?php
   		if(isset($_SESSION['error'])){

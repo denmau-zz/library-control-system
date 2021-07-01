@@ -1,6 +1,6 @@
 <header class="main-header bg-green">
   <!-- Logo -->
-  <a href="../index.php " target= "_blank"class="logo">
+  <a href="../indexalpha.php " target= "_blank"class="logo">
     <!-- mini logo for sidebar mini 50x50 pixels -->
     <span class="logo-mini"><b>L</b>MS</span>
     <!-- logo for regular state and mobile devices -->

@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/alpha.css">
-    <title>Library System</title>
+    <title>linker</title>
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico">  
 </head>
 
@@ -19,7 +19,7 @@
 		</div>
 		  
 			<div class="btn"><a href="admin/index.php" class="button">admin</a>
-			 <a href="index.php" class="button1">student</a></div>
+			 <a href="indexalpha.php" class="button1">student</a></div>
 	       
 		
 			

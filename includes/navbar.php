@@ -41,7 +41,7 @@
             else{
               echo "
                 <li><a href='#login' data-toggle='modal'><i class='fa fa-sign-in'></i> LOGIN</a></li>
-                <li><a href='indexalpha.php' ><i class='fa fa-dashboard'></i> DASHBOARD</a></li>
+                <li><a href='index.php' ><i class='fa fa-dashboard'></i> DASHBOARD</a></li>
               ";
             } 
           ?>
